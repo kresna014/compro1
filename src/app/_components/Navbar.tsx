@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Logo1 from "@/app/components/Img/logoskyroof.svg";
+import Logo1 from "@/app/_components/Img/logoskyroof.svg";
 import Image from "next/image";
 import Button1 from "./Button/Button1";
 import Button2 from "./Button/Button2";

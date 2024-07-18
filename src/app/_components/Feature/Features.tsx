@@ -1,10 +1,10 @@
 import React from "react";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Featurecard from "./Featurecard";
-import Icon1 from "@/app/components/Img/icon1.svg";
-import Icon2 from "@/app/components/Img/icon2.svg";
-import Icon4 from "@/app/components/Img/icon4.svg";
-import Icon5 from "@/app/components/Img/icon5.svg";
+import Icon1 from "@/app/_components/Img/icon1.svg";
+import Icon2 from "@/app/_components/Img/icon2.svg";
+import Icon4 from "@/app/_components/Img/icon4.svg";
+import Icon5 from "@/app/_components/Img/icon5.svg";
 
 const Features = () => {
   return (

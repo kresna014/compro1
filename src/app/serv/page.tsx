@@ -1,21 +1,14 @@
-import Image from "next/image";
 import React from "react";
-import LogoServ from "@/app/components/Img/icon1.svg";
-import LogoServ2 from "@/app/components/Img/icon2.svg";
-import LogoServ3 from "@/app/components/Img/icon3.svg";
-import LogoServ4 from "@/app/components/Img/icon4.svg";
-import LogoServ5 from "@/app/components/Img/icon5.svg";
+
 import Fecthserv from "./fecthserv";
 
-
 export default function Service() {
- return(
-  <div>  
-
-     <Fecthserv />
-  </div>
-  )
-};
+  return (
+    <div>
+      <Fecthserv />
+    </div>
+  );
+}
 
 // export default Service;
 

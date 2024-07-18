@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import SupportImg from "@/app/components/Img/telephone.png";
+import SupportImg from "@/app/_components/Img/telephone.png";
 import { CheckBadgeIcon, CheckIcon } from "@heroicons/react/16/solid";
 
 const CustomerSupport = () => {

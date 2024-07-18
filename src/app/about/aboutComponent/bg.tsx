@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import LogoAbout from "@/app/components/Img/About2.svg";
+import LogoAbout from "@/app/_components/Img/About2.svg";
 
 export default function Bg() {
   return (
