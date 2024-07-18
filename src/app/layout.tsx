@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import Responsmobile from "./components/ResponsMobile";
-import Footer from "./components/Footer/Footer";
+import Responsmobile from "./_components/ResponsMobile";
+import Footer from "./_components/Footer/Footer";
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
-  subsets:["latin"]
- });
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "SkyRoof",
@@ -24,9 +24,8 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Responsmobile />
         {children}
-        <Footer/>
-        </body>
-      
+        <Footer />
+      </body>
     </html>
   );
 }
