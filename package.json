@@ -1,0 +1,32 @@
+{
+  "name": "mycompro2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "next build && serve -s out"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "framer-motion": "^11.3.2",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "daisyui": "^4.12.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
