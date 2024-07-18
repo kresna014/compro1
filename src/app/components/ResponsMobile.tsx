@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
 import MobileNav from './MobileNav'
-import { log } from 'console'
 
 const Responsmobile = () => {
     const [showNav, setShowNav] = useState(false);
